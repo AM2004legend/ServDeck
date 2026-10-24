@@ -53,8 +53,15 @@ public class TestDataFactory {
     return units;
   }
 
+  /**
+   * Contact inside a household Account. A contact without an account is a "private contact"
+   * that only its owner and admins can see, whatever the Contact sharing default says.
+   */
   public static Contact createContact(String lastName) {
+    Account household = new Account(Name = lastName + ' Household');
+    insert household;
     Contact person = new Contact(
+      AccountId = household.Id,
       FirstName = 'Test',
       LastName = lastName,
       Email = lastName.toLowerCase().replaceAll('[^a-z0-9]', '') +

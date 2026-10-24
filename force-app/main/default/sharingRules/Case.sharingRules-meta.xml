@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Community_GVR_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description
+    >Cases of Green Valley Residency are shared with its managers. Criteria-based rules cannot use lookup fields, so this matches the Community Code text field.</description>
+        <label>Community GVR Managers</label>
+        <sharedTo>
+            <group>Community_GVR</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Community_Code__c</field>
+            <operation>equals</operation>
+            <value>GVR</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Community_UCT_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description
+    >Cases of UrbanCart are shared with its managers. Criteria-based rules cannot use lookup fields, so this matches the Community Code text field.</description>
+        <label>Community UCT Managers</label>
+        <sharedTo>
+            <group>Community_UCT</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Community_Code__c</field>
+            <operation>equals</operation>
+            <value>UCT</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>
