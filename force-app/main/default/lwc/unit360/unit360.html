@@ -1,0 +1,106 @@
+<template>
+  <lightning-card title="Unit 360" icon-name="custom:custom24">
+    <template lwc:if={isLoading}>
+      <div class="slds-is-relative slds-p-around_large" data-id="loading">
+        <lightning-spinner
+          alternative-text="Loading Unit 360"
+          size="small"
+        ></lightning-spinner>
+      </div>
+    </template>
+
+    <template lwc:elseif={error}>
+      <div class="slds-p-horizontal_medium" data-id="error">
+        <p class="slds-text-color_error">{errorMessage}</p>
+      </div>
+    </template>
+
+    <template lwc:else>
+      <div class="slds-p-horizontal_medium">
+        <div class="slds-grid slds-gutters_x-small slds-wrap">
+          <div class="slds-col slds-size_1-of-3">
+            <div class="tile">
+              <p class="slds-text-title">Open cases</p>
+              <p class="slds-text-heading_medium" data-id="open-cases">
+                {openCases}
+              </p>
+            </div>
+          </div>
+          <div class="slds-col slds-size_1-of-3">
+            <div class="tile">
+              <p class="slds-text-title">Avg resolution</p>
+              <p class="slds-text-heading_small" data-id="avg-resolution">
+                {avgResolution}
+              </p>
+            </div>
+          </div>
+          <div class="slds-col slds-size_1-of-3">
+            <div class="tile">
+              <p class="slds-text-title">Avg rating</p>
+              <p class="slds-text-heading_small" data-id="avg-rating">
+                {avgRating}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h3
+          class="slds-text-heading_small slds-m-top_medium slds-m-bottom_x-small"
+        >
+          {occupantsTitle}
+        </h3>
+        <template lwc:if={hasOccupants}>
+          <ul class="slds-has-dividers_bottom-space" data-id="occupants">
+            <template for:each={occupants} for:item="occupant">
+              <li key={occupant.id} class="slds-item">
+                <a href={occupant.url}>{occupant.name}</a>
+                <span class="slds-text-color_weak">
+                  · {occupant.role} since
+                  <lightning-formatted-date-time
+                    value={occupant.startDate}
+                    year="numeric"
+                    month="short"
+                    day="numeric"
+                    time-zone="UTC"
+                  ></lightning-formatted-date-time>
+                </span>
+              </li>
+            </template>
+          </ul>
+        </template>
+        <template lwc:else>
+          <p class="slds-text-color_weak" data-id="no-occupants">
+            No current occupants.
+          </p>
+        </template>
+
+        <h3
+          class="slds-text-heading_small slds-m-top_medium slds-m-bottom_x-small"
+        >
+          Recent cases
+        </h3>
+        <template lwc:if={hasCases}>
+          <ul class="slds-has-dividers_bottom-space" data-id="cases">
+            <template for:each={cases} for:item="row">
+              <li key={row.id} class="slds-item">
+                <div class="slds-grid slds-grid_align-spread">
+                  <a href={row.url}>{row.caseNumber}</a>
+                  <span class={row.statusClass}>{row.status}</span>
+                </div>
+                <p class="slds-truncate" title={row.subject}>{row.subject}</p>
+                <template lwc:if={row.flag}>
+                  <p class="slds-text-color_error slds-text-body_small">
+                    {row.flag}
+                  </p>
+                </template>
+              </li>
+            </template>
+          </ul>
+        </template>
+        <template lwc:else>
+          <p class="slds-text-color_weak" data-id="no-cases">No cases yet.</p>
+        </template>
+      </div>
+    </template>
+  </lightning-card>
+</template>

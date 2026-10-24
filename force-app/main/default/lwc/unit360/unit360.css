@@ -1,0 +1,7 @@
+.tile {
+  border: 1px solid var(--slds-g-color-border-1, #e5e5e5);
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  text-align: center;
+  height: 100%;
+}
