@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Note_Required_To_Close</fullName>
+    <active>true</active>
+    <description
+  >A case cannot be closed until the agent records how it was resolved.</description>
+    <errorConditionFormula
+  >ISPICKVAL(Status, "Closed") &amp;&amp; ISBLANK(Resolution_Note__c)</errorConditionFormula>
+    <errorDisplayField>Resolution_Note__c</errorDisplayField>
+    <errorMessage>Add a Resolution Note before closing the case.</errorMessage>
+</ValidationRule>
