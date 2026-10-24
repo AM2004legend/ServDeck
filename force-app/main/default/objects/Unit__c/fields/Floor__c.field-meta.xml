@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Floor__c</fullName>
+    <description
+  >Floor the unit is on. Blank for customer accounts.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+  >Floor number (0 = ground). Leave blank if not applicable.</inlineHelpText>
+    <label>Floor</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <precision>3</precision>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

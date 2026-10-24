@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comment__c</fullName>
+    <description>Optional free-text comment from the requester.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What the requester said about the service.</inlineHelpText>
+    <label>Comment</label>
+    <trackTrending>false</trackTrending>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Due__c</fullName>
+    <description
+  >Deadline to resolve the case. Set by the routing flow to created time + category SLA Hours.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+  >Set automatically from the service category.</inlineHelpText>
+    <label>SLA Due</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

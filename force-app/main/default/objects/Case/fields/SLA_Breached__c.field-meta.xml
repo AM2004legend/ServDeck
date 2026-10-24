@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Breached__c</fullName>
+    <description
+  >True if a closed case took longer than its SLA hours, or an open case is past SLA Due. Used for the SLA breach % report.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+  >Calculated: did this case miss its deadline?</inlineHelpText>
+    <label>SLA Breached</label>
+    <trackTrending>false</trackTrending>
+    <formula
+  >IF(ISBLANK(SLA_Due__c), FALSE, IF(IsClosed, Resolution_Hours__c &gt; Service_Category__r.SLA_Hours__c, NOW() &gt; SLA_Due__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <type>Checkbox</type>
+</CustomField>

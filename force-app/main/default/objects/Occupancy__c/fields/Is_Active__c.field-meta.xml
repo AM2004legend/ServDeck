@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Active__c</fullName>
+    <description
+  >True when today is between Start Date and End Date (or End Date is blank).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Calculated from the start and end dates.</inlineHelpText>
+    <label>Is Active</label>
+    <trackTrending>false</trackTrending>
+    <formula
+  >AND(Start_Date__c &lt;= TODAY(), OR(ISBLANK(End_Date__c), End_Date__c &gt;= TODAY()))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <type>Checkbox</type>
+</CustomField>

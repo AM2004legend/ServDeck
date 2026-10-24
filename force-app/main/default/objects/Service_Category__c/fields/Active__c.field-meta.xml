@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active__c</fullName>
+    <description
+  >Only active categories can be chosen on new cases.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+  >Untick to retire a category without deleting it.</inlineHelpText>
+    <label>Active</label>
+    <trackTrending>false</trackTrending>
+    <defaultValue>true</defaultValue>
+    <type>Checkbox</type>
+</CustomField>

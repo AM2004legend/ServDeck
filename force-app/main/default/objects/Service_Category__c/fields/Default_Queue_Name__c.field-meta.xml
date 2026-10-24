@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Queue_Name__c</fullName>
+    <description
+  >Developer name of the Queue that new cases in this category are routed to (Maintenance, Security, Billing or Support).</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+  >Queue API name, e.g. Maintenance. Must match an existing queue exactly.</inlineHelpText>
+    <label>Default Queue Name</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <length>40</length>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

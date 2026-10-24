@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact__c</fullName>
+    <description>Secondary master of the Unit-Contact junction.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The person occupying the unit.</inlineHelpText>
+    <label>Contact</label>
+    <trackTrending>false</trackTrending>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Occupancies</relationshipLabel>
+    <relationshipName>Occupancies</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

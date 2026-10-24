@@ -46,3 +46,7 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+
+# Personal learning and interview prep (not part of the project)
+KICKOFF_PROMPT.md
+prep/

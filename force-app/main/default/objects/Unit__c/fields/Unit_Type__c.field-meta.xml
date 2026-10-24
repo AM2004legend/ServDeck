@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Type__c</fullName>
+    <description>What kind of unit this is.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Flat, Room, Shop, Desk or Customer Account.</inlineHelpText>
+    <label>Unit Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Flat</fullName>
+                <default>false</default>
+                <label>Flat</label>
+            </value>
+            <value>
+                <fullName>Room</fullName>
+                <default>false</default>
+                <label>Room</label>
+            </value>
+            <value>
+                <fullName>Shop</fullName>
+                <default>false</default>
+                <label>Shop</label>
+            </value>
+            <value>
+                <fullName>Desk</fullName>
+                <default>false</default>
+                <label>Desk</label>
+            </value>
+            <value>
+                <fullName>Customer Account</fullName>
+                <default>false</default>
+                <label>Customer Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

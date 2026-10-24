@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_Code__c</fullName>
+    <description
+  >Copy of the Community Code, set by flow. Criteria-based sharing rules cannot use lookup fields, so this text copy lets managers see their community cases.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set automatically from the community.</inlineHelpText>
+    <label>Community Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <length>10</length>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

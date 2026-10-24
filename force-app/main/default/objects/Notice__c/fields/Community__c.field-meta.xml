@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community__c</fullName>
+    <description>Community the notice is published to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The community that will see this notice.</inlineHelpText>
+    <label>Community</label>
+    <trackTrending>false</trackTrending>
+    <referenceTo>Community__c</referenceTo>
+    <relationshipLabel>Notices</relationshipLabel>
+    <relationshipName>Notices</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

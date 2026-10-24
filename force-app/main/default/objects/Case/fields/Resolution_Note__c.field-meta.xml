@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Note__c</fullName>
+    <description
+  >How the case was resolved. Required to close a case (validation rule).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Describe what was done to fix the problem.</inlineHelpText>
+    <label>Resolution Note</label>
+    <trackTrending>false</trackTrending>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

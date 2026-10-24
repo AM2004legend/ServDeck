@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Housing Society</fullName>
+        <default>false</default>
+        <label>Housing Society</label>
+    </customValue>
+    <customValue>
+        <fullName>Hostel/Campus</fullName>
+        <default>false</default>
+        <label>Hostel/Campus</label>
+    </customValue>
+    <customValue>
+        <fullName>Co-working</fullName>
+        <default>false</default>
+        <label>Co-working</label>
+    </customValue>
+    <customValue>
+        <fullName>Business</fullName>
+        <default>false</default>
+        <label>Business</label>
+    </customValue>
+    <description
+  >Kinds of organisation ServDeck can serve. Shared by Community and Service Category so both always use the same values.</description>
+    <masterLabel>Organisation Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

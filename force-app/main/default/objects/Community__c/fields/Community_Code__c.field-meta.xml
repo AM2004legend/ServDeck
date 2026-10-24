@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_Code__c</fullName>
+    <description
+  >Short unique code (e.g. GVR). Copied onto each Case so sharing rules can give the community manager access to its cases.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+  >Short unique code, e.g. GVR. Used for sharing; avoid changing it.</inlineHelpText>
+    <label>Community Code</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <length>10</length>
+    <type>Text</type>
+    <unique>true</unique>
+    <caseSensitive>false</caseSensitive>
+</CustomField>

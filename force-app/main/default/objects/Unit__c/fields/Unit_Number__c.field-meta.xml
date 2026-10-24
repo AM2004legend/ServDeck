@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Number__c</fullName>
+    <description
+  >Number or code of the unit inside its community, e.g. A-101 or CUST-1001.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+  >Flat/room/shop number, or customer account number.</inlineHelpText>
+    <label>Unit Number</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <length>20</length>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

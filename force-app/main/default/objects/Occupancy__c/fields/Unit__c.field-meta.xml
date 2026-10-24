@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit__c</fullName>
+    <description>Primary master of the Unit-Contact junction.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The unit being occupied.</inlineHelpText>
+    <label>Unit</label>
+    <trackTrending>false</trackTrending>
+    <referenceTo>Unit__c</referenceTo>
+    <relationshipLabel>Occupancies</relationshipLabel>
+    <relationshipName>Occupancies</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

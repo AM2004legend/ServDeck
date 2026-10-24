@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_Date__c</fullName>
+    <description
+  >Date the occupancy ended. Blank while it is ongoing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+  >Leave blank if the person still occupies the unit.</inlineHelpText>
+    <label>End Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

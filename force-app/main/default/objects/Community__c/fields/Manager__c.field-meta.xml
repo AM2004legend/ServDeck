@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manager__c</fullName>
+    <description
+  >User who manages this community and is notified when its cases are escalated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+  >Society secretary, hostel warden or support manager.</inlineHelpText>
+    <label>Manager</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Managed Communities</relationshipLabel>
+    <relationshipName>Managed_Communities</relationshipName>
+    <type>Lookup</type>
+</CustomField>
