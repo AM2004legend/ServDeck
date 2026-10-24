@@ -1,0 +1,11 @@
+Hello {!Contact.FirstName},
+
+Thanks for getting in touch. We have logged your request.
+
+Case number: {!Case.CaseNumber}
+Subject: {!Case.Subject}
+Expected resolution by: {!Case.SLA_Due__c}
+
+Please quote the case number if you contact us about this request. We will let you know when it is resolved.
+
+ServDeck Support

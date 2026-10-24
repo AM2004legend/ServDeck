@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description
+  >Sent to the requester when a case is closed: resolution note and a request to rate the service 1-5.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ServDeck: Case Feedback Request</name>
+    <style>none</style>
+    <subject>How did we do? Case {!Case.CaseNumber}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

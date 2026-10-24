@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomNotificationType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customNotifTypeName>ServDeck Case Escalated</customNotifTypeName>
+    <description
+  >Bell and mobile notification sent to a community manager when one of the community's cases passes its SLA.</description>
+    <desktop>true</desktop>
+    <masterLabel>ServDeck Case Escalated</masterLabel>
+    <mobile>true</mobile>
+</CustomNotificationType>

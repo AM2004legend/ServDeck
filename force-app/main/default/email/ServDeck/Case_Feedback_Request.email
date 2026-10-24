@@ -1,0 +1,9 @@
+Hello {!Contact.FirstName},
+
+Your request "{!Case.Subject}" (case {!Case.CaseNumber}) has been resolved.
+
+What we did: {!Case.Resolution_Note__c}
+
+How would you rate our service, from 1 (poor) to 5 (excellent)? Just reply to this email with a number and any comments. We read every reply.
+
+ServDeck Support
