@@ -1,0 +1,108 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K01"
+      },
+      "Case__c": "@K01",
+      "Rating__c": 5,
+      "Comment__c": "Quick and tidy work."
+    },
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K02"
+      },
+      "Case__c": "@K02",
+      "Rating__c": 4,
+      "Comment__c": "Fixed the next day, fine."
+    },
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K03"
+      },
+      "Case__c": "@K03",
+      "Rating__c": 2,
+      "Comment__c": "Took far too long, elderly residents were stuck upstairs."
+    },
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K04"
+      },
+      "Case__c": "@K04",
+      "Rating__c": 5,
+      "Comment__c": "Felt safe again, thank you."
+    },
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K05"
+      },
+      "Case__c": "@K05",
+      "Rating__c": 4
+    },
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K06"
+      },
+      "Case__c": "@K06",
+      "Rating__c": 3,
+      "Comment__c": "Okay in the end but slow."
+    },
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K07"
+      },
+      "Case__c": "@K07",
+      "Rating__c": 5,
+      "Comment__c": "Came within hours."
+    },
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K19"
+      },
+      "Case__c": "@K19",
+      "Rating__c": 4
+    },
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K20"
+      },
+      "Case__c": "@K20",
+      "Rating__c": 5,
+      "Comment__c": "Replacement was quick."
+    },
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K21"
+      },
+      "Case__c": "@K21",
+      "Rating__c": 2,
+      "Comment__c": "Refund took almost four days."
+    },
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K22"
+      },
+      "Case__c": "@K22",
+      "Rating__c": 5
+    },
+    {
+      "attributes": {
+        "type": "Feedback__c",
+        "referenceId": "F_K23"
+      },
+      "Case__c": "@K23",
+      "Rating__c": 4
+    }
+  ]
+}

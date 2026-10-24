@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Community__c",
+        "referenceId": "COM_GVR"
+      },
+      "Name": "Green Valley Residency",
+      "Community_Code__c": "GVR",
+      "Organisation_Type__c": "Housing Society",
+      "City__c": "Kolkata"
+    },
+    {
+      "attributes": {
+        "type": "Community__c",
+        "referenceId": "COM_UCT"
+      },
+      "Name": "UrbanCart",
+      "Community_Code__c": "UCT",
+      "Organisation_Type__c": "Business",
+      "City__c": "Bengaluru"
+    }
+  ]
+}

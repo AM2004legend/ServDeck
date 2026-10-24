@@ -1,0 +1,485 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K01"
+      },
+      "Subject": "Kitchen tap leaking",
+      "Description": "Kitchen tap leaking. Reported via phone.",
+      "Origin": "Phone",
+      "Status": "Closed",
+      "Priority": "Medium",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_A101",
+      "Service_Category__c": "@CAT_PLUMB",
+      "ContactId": "@C_ANANYA",
+      "Resolution_Note__c": "Replaced the tap washer and checked for further leaks.",
+      "Resolution_Hours__c": 6.5
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K02"
+      },
+      "Subject": "Bedroom fan not working",
+      "Description": "Bedroom fan not working. Reported via web.",
+      "Origin": "Web",
+      "Status": "Closed",
+      "Priority": "Medium",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_A102",
+      "Service_Category__c": "@CAT_ELEC",
+      "ContactId": "@C_KAVITA",
+      "Resolution_Note__c": "Replaced the fan capacitor.",
+      "Resolution_Hours__c": 20
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K03"
+      },
+      "Subject": "Lift B stuck on 2nd floor",
+      "Description": "Lift B stuck on 2nd floor. Reported via phone.",
+      "Origin": "Phone",
+      "Status": "Closed",
+      "Priority": "High",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_B101",
+      "Service_Category__c": "@CAT_LIFT",
+      "ContactId": "@C_SANJAY",
+      "Resolution_Note__c": "Lift vendor reset the controller and replaced a door sensor.",
+      "Resolution_Hours__c": 11
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K04"
+      },
+      "Subject": "Unknown person loitering near the gate at night",
+      "Description": "Unknown person loitering near the gate at night. Reported via phone.",
+      "Origin": "Phone",
+      "Status": "Closed",
+      "Priority": "High",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_A202",
+      "Service_Category__c": "@CAT_SEC",
+      "ContactId": "@C_MEERA",
+      "Resolution_Note__c": "Extra guard patrol added; CCTV reviewed with the resident.",
+      "Resolution_Hours__c": 3
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K05"
+      },
+      "Subject": "Charged twice for October maintenance",
+      "Description": "Charged twice for October maintenance. Reported via email.",
+      "Origin": "Email",
+      "Status": "Closed",
+      "Priority": "Medium",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_B201",
+      "Service_Category__c": "@CAT_BILL",
+      "ContactId": "@C_ARNAV",
+      "Resolution_Note__c": "Duplicate charge reversed in the society ledger.",
+      "Resolution_Hours__c": 50
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K06"
+      },
+      "Subject": "Low water pressure in bathroom",
+      "Description": "Low water pressure in bathroom. Reported via web.",
+      "Origin": "Web",
+      "Status": "Closed",
+      "Priority": "Medium",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_B301",
+      "Service_Category__c": "@CAT_PLUMB",
+      "ContactId": "@C_LATA",
+      "Resolution_Note__c": "Cleared a blocked inlet valve.",
+      "Resolution_Hours__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K07"
+      },
+      "Subject": "Power socket sparking in kitchen",
+      "Description": "Power socket sparking in kitchen. Reported via phone.",
+      "Origin": "Phone",
+      "Status": "Closed",
+      "Priority": "High",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_B102",
+      "Service_Category__c": "@CAT_ELEC",
+      "ContactId": "@C_FARAH",
+      "Resolution_Note__c": "Socket replaced and wiring checked by the electrician.",
+      "Resolution_Hours__c": 4
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K08"
+      },
+      "Subject": "Parcel missing from the lobby",
+      "Description": "Parcel missing from the lobby. Reported via web.",
+      "Origin": "Web",
+      "Status": "Closed",
+      "Priority": "Medium",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_A201",
+      "Service_Category__c": "@CAT_SEC",
+      "ContactId": "@C_VIKRAM",
+      "Resolution_Note__c": "CCTV footage shared; parcel found in the guard room.",
+      "Resolution_Hours__c": 6
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K09"
+      },
+      "Subject": "Corridor light flickering on 1st floor",
+      "Description": "Corridor light flickering on 1st floor. Reported via web.",
+      "Origin": "Web",
+      "Status": "New",
+      "Priority": "Low",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_A101",
+      "Service_Category__c": "@CAT_ELEC",
+      "ContactId": "@C_RAHUL"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K10"
+      },
+      "Subject": "Water seepage on bedroom ceiling",
+      "Description": "Water seepage on bedroom ceiling. Reported via phone.",
+      "Origin": "Phone",
+      "Status": "Working",
+      "Priority": "High",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_A102",
+      "Service_Category__c": "@CAT_PLUMB",
+      "ContactId": "@C_KAVITA"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K11"
+      },
+      "Subject": "Geyser not heating water",
+      "Description": "Geyser not heating water. Reported via email.",
+      "Origin": "Email",
+      "Status": "New",
+      "Priority": "Medium",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_A201",
+      "Service_Category__c": "@CAT_PLUMB",
+      "ContactId": "@C_VIKRAM"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K12"
+      },
+      "Subject": "Lift A making a grinding noise",
+      "Description": "Lift A making a grinding noise. Reported via phone.",
+      "Origin": "Phone",
+      "Status": "New",
+      "Priority": "Medium",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_A202",
+      "Service_Category__c": "@CAT_LIFT",
+      "ContactId": "@C_MEERA",
+      "SLA_Due__c": "2026-10-20T04:30:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K13"
+      },
+      "Subject": "Need maintenance receipts for tax filing",
+      "Description": "Need maintenance receipts for tax filing. Reported via email.",
+      "Origin": "Email",
+      "Status": "New",
+      "Priority": "Low",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_B101",
+      "Service_Category__c": "@CAT_BILL",
+      "ContactId": "@C_SANJAY"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K14"
+      },
+      "Subject": "Main gate intercom not working",
+      "Description": "Main gate intercom not working. Reported via web.",
+      "Origin": "Web",
+      "Status": "New",
+      "Priority": "Medium",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_B102",
+      "Service_Category__c": "@CAT_SEC",
+      "ContactId": "@C_FARAH",
+      "SLA_Due__c": "2026-10-20T04:30:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K15"
+      },
+      "Subject": "Balcony drain blocked",
+      "Description": "Balcony drain blocked. Reported via phone.",
+      "Origin": "Phone",
+      "Status": "Working",
+      "Priority": "Medium",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_B201",
+      "Service_Category__c": "@CAT_PLUMB",
+      "ContactId": "@C_ARNAV"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K16"
+      },
+      "Subject": "Inverter not charging",
+      "Description": "Inverter not charging. Reported via web.",
+      "Origin": "Web",
+      "Status": "New",
+      "Priority": "Medium",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_B301",
+      "Service_Category__c": "@CAT_ELEC",
+      "ContactId": "@C_LATA",
+      "SLA_Due__c": "2026-10-20T04:30:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K17"
+      },
+      "Subject": "Lift door closing too fast",
+      "Description": "Lift door closing too fast. Reported via phone.",
+      "Origin": "Phone",
+      "Status": "New",
+      "Priority": "Medium",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_A101",
+      "Service_Category__c": "@CAT_LIFT",
+      "ContactId": "@C_ANANYA"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K18"
+      },
+      "Subject": "Query on water charges in the latest bill",
+      "Description": "Query on water charges in the latest bill. Reported via email.",
+      "Origin": "Email",
+      "Status": "New",
+      "Priority": "Low",
+      "Community__c": "@COM_GVR",
+      "Unit__c": "@U_B201",
+      "Service_Category__c": "@CAT_BILL",
+      "ContactId": "@C_ARNAV"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K19"
+      },
+      "Subject": "Order UC-48213 not delivered",
+      "Description": "Order UC-48213 not delivered. Reported via web.",
+      "Origin": "Web",
+      "Status": "Closed",
+      "Priority": "Medium",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1001",
+      "Service_Category__c": "@CAT_NODEL",
+      "ContactId": "@C_ROHAN",
+      "Resolution_Note__c": "Courier re-dispatched the parcel; delivered.",
+      "Resolution_Hours__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K20"
+      },
+      "Subject": "Mixer jar arrived cracked",
+      "Description": "Mixer jar arrived cracked. Reported via email.",
+      "Origin": "Email",
+      "Status": "Closed",
+      "Priority": "Medium",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1002",
+      "Service_Category__c": "@CAT_DMG",
+      "ContactId": "@C_SNEHA",
+      "Resolution_Note__c": "Replacement shipped and old jar collected.",
+      "Resolution_Hours__c": 40
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K21"
+      },
+      "Subject": "Refund for returned shoes",
+      "Description": "Refund for returned shoes. Reported via web.",
+      "Origin": "Web",
+      "Status": "Closed",
+      "Priority": "Medium",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1003",
+      "Service_Category__c": "@CAT_REFUND",
+      "ContactId": "@C_IMRAN",
+      "Resolution_Note__c": "Refund processed to the original card.",
+      "Resolution_Hours__c": 90
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K22"
+      },
+      "Subject": "Cannot log in after password reset",
+      "Description": "Cannot log in after password reset. Reported via phone.",
+      "Origin": "Phone",
+      "Status": "Closed",
+      "Priority": "High",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1004",
+      "Service_Category__c": "@CAT_LOGIN",
+      "ContactId": "@C_POOJA",
+      "Resolution_Note__c": "Account unlocked and reset link resent.",
+      "Resolution_Hours__c": 2
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K23"
+      },
+      "Subject": "Payment debited but order failed",
+      "Description": "Payment debited but order failed. Reported via email.",
+      "Origin": "Email",
+      "Status": "Closed",
+      "Priority": "High",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1005",
+      "Service_Category__c": "@CAT_PAY",
+      "ContactId": "@C_KARAN",
+      "Resolution_Note__c": "Amount refunded and order placed again.",
+      "Resolution_Hours__c": 20
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K24"
+      },
+      "Subject": "Refund for cancelled order",
+      "Description": "Refund for cancelled order. Reported via web.",
+      "Origin": "Web",
+      "Status": "New",
+      "Priority": "Medium",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1001",
+      "Service_Category__c": "@CAT_REFUND",
+      "ContactId": "@C_ROHAN"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K25"
+      },
+      "Subject": "Delivery delayed by five days",
+      "Description": "Delivery delayed by five days. Reported via email.",
+      "Origin": "Email",
+      "Status": "New",
+      "Priority": "Medium",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1002",
+      "Service_Category__c": "@CAT_NODEL",
+      "ContactId": "@C_SNEHA",
+      "SLA_Due__c": "2026-10-20T04:30:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K26"
+      },
+      "Subject": "OTP not received on login",
+      "Description": "OTP not received on login. Reported via web.",
+      "Origin": "Web",
+      "Status": "New",
+      "Priority": "High",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1003",
+      "Service_Category__c": "@CAT_LOGIN",
+      "ContactId": "@C_IMRAN",
+      "SLA_Due__c": "2026-10-20T04:30:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K27"
+      },
+      "Subject": "Wrong colour item delivered",
+      "Description": "Wrong colour item delivered. Reported via phone.",
+      "Origin": "Phone",
+      "Status": "Working",
+      "Priority": "Medium",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1004",
+      "Service_Category__c": "@CAT_DMG",
+      "ContactId": "@C_POOJA"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K28"
+      },
+      "Subject": "Package marked delivered but not received",
+      "Description": "Package marked delivered but not received. Reported via web.",
+      "Origin": "Web",
+      "Status": "New",
+      "Priority": "High",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1005",
+      "Service_Category__c": "@CAT_NODEL",
+      "ContactId": "@C_KARAN"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K29"
+      },
+      "Subject": "UPI payment failed twice",
+      "Description": "UPI payment failed twice. Reported via web.",
+      "Origin": "Web",
+      "Status": "New",
+      "Priority": "Medium",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1006",
+      "Service_Category__c": "@CAT_PAY",
+      "ContactId": "@C_DIVYA"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "K30"
+      },
+      "Subject": "Request to change account email",
+      "Description": "Request to change account email. Reported via email.",
+      "Origin": "Email",
+      "Status": "New",
+      "Priority": "Low",
+      "Community__c": "@COM_UCT",
+      "Unit__c": "@U_C1006",
+      "Service_Category__c": "@CAT_LOGIN",
+      "ContactId": "@C_DIVYA"
+    }
+  ]
+}

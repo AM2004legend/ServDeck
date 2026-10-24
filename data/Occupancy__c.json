@@ -1,0 +1,165 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_ANANYA"
+      },
+      "Unit__c": "@U_A101",
+      "Contact__c": "@C_ANANYA",
+      "Role__c": "Owner",
+      "Start_Date__c": "2019-06-01"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_RAHUL"
+      },
+      "Unit__c": "@U_A101",
+      "Contact__c": "@C_RAHUL",
+      "Role__c": "Owner",
+      "Start_Date__c": "2019-06-01"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_KAVITA"
+      },
+      "Unit__c": "@U_A102",
+      "Contact__c": "@C_KAVITA",
+      "Role__c": "Owner",
+      "Start_Date__c": "2020-02-15"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_VIKRAM"
+      },
+      "Unit__c": "@U_A201",
+      "Contact__c": "@C_VIKRAM",
+      "Role__c": "Tenant",
+      "Start_Date__c": "2026-01-15"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_MEERA"
+      },
+      "Unit__c": "@U_A202",
+      "Contact__c": "@C_MEERA",
+      "Role__c": "Owner",
+      "Start_Date__c": "2018-11-01"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_SANJAY"
+      },
+      "Unit__c": "@U_B101",
+      "Contact__c": "@C_SANJAY",
+      "Role__c": "Owner",
+      "Start_Date__c": "2021-04-10"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_FARAH"
+      },
+      "Unit__c": "@U_B102",
+      "Contact__c": "@C_FARAH",
+      "Role__c": "Tenant",
+      "Start_Date__c": "2025-08-01"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_ARNAV"
+      },
+      "Unit__c": "@U_B201",
+      "Contact__c": "@C_ARNAV",
+      "Role__c": "Owner",
+      "Start_Date__c": "2017-09-20"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_LATA"
+      },
+      "Unit__c": "@U_B301",
+      "Contact__c": "@C_LATA",
+      "Role__c": "Owner",
+      "Start_Date__c": "2022-03-05"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_DEV"
+      },
+      "Unit__c": "@U_A201",
+      "Contact__c": "@C_DEV",
+      "Role__c": "Tenant",
+      "Start_Date__c": "2024-01-01",
+      "End_Date__c": "2025-12-31"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_ROHAN"
+      },
+      "Unit__c": "@U_C1001",
+      "Contact__c": "@C_ROHAN",
+      "Role__c": "Customer",
+      "Start_Date__c": "2024-07-12"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_SNEHA"
+      },
+      "Unit__c": "@U_C1002",
+      "Contact__c": "@C_SNEHA",
+      "Role__c": "Customer",
+      "Start_Date__c": "2023-12-02"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_IMRAN"
+      },
+      "Unit__c": "@U_C1003",
+      "Contact__c": "@C_IMRAN",
+      "Role__c": "Customer",
+      "Start_Date__c": "2025-02-18"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_POOJA"
+      },
+      "Unit__c": "@U_C1004",
+      "Contact__c": "@C_POOJA",
+      "Role__c": "Customer",
+      "Start_Date__c": "2022-10-30"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_KARAN"
+      },
+      "Unit__c": "@U_C1005",
+      "Contact__c": "@C_KARAN",
+      "Role__c": "Customer",
+      "Start_Date__c": "2025-06-07"
+    },
+    {
+      "attributes": {
+        "type": "Occupancy__c",
+        "referenceId": "O_C_DIVYA"
+      },
+      "Unit__c": "@U_C1006",
+      "Contact__c": "@C_DIVYA",
+      "Role__c": "Customer",
+      "Start_Date__c": "2026-03-21"
+    }
+  ]
+}

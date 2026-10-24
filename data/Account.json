@@ -1,0 +1,124 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_SEN"
+      },
+      "Name": "Sen Household",
+      "Type": "Other"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_IYER"
+      },
+      "Name": "Iyer Household",
+      "Type": "Other"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_JOSHI"
+      },
+      "Name": "Joshi Household",
+      "Type": "Other"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_DAS"
+      },
+      "Name": "Das Household",
+      "Type": "Other"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_GHOSH"
+      },
+      "Name": "Ghosh Household",
+      "Type": "Other"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_KHAN"
+      },
+      "Name": "Khan Household",
+      "Type": "Other"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_BOSE"
+      },
+      "Name": "Bose Household",
+      "Type": "Other"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_PILLAI"
+      },
+      "Name": "Pillai Household",
+      "Type": "Other"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_MALHOTRA"
+      },
+      "Name": "Malhotra Household",
+      "Type": "Other"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_VERMA"
+      },
+      "Name": "Rohan Verma (UrbanCart customer)",
+      "Type": "Customer"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_REDDY"
+      },
+      "Name": "Sneha Reddy (UrbanCart customer)",
+      "Type": "Customer"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_SHAIKH"
+      },
+      "Name": "Imran Shaikh (UrbanCart customer)",
+      "Type": "Customer"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_NAIR"
+      },
+      "Name": "Pooja Nair (UrbanCart customer)",
+      "Type": "Customer"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_GILL"
+      },
+      "Name": "Karan Gill (UrbanCart customer)",
+      "Type": "Customer"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "A_MENON"
+      },
+      "Name": "Divya Menon (UrbanCart customer)",
+      "Type": "Customer"
+    }
+  ]
+}

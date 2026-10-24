@@ -1,0 +1,114 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Service_Category__c",
+        "referenceId": "CAT_PLUMB"
+      },
+      "Name": "Plumbing",
+      "Organisation_Type__c": "Housing Society",
+      "SLA_Hours__c": 24,
+      "Default_Queue_Name__c": "Maintenance",
+      "Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Service_Category__c",
+        "referenceId": "CAT_ELEC"
+      },
+      "Name": "Electrical",
+      "Organisation_Type__c": "Housing Society",
+      "SLA_Hours__c": 24,
+      "Default_Queue_Name__c": "Maintenance",
+      "Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Service_Category__c",
+        "referenceId": "CAT_LIFT"
+      },
+      "Name": "Lift Breakdown",
+      "Organisation_Type__c": "Housing Society",
+      "SLA_Hours__c": 8,
+      "Default_Queue_Name__c": "Maintenance",
+      "Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Service_Category__c",
+        "referenceId": "CAT_SEC"
+      },
+      "Name": "Security Concern",
+      "Organisation_Type__c": "Housing Society",
+      "SLA_Hours__c": 4,
+      "Default_Queue_Name__c": "Security",
+      "Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Service_Category__c",
+        "referenceId": "CAT_BILL"
+      },
+      "Name": "Maintenance Bill Query",
+      "Organisation_Type__c": "Housing Society",
+      "SLA_Hours__c": 72,
+      "Default_Queue_Name__c": "Billing",
+      "Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Service_Category__c",
+        "referenceId": "CAT_NODEL"
+      },
+      "Name": "Order Not Delivered",
+      "Organisation_Type__c": "Business",
+      "SLA_Hours__c": 48,
+      "Default_Queue_Name__c": "Support",
+      "Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Service_Category__c",
+        "referenceId": "CAT_DMG"
+      },
+      "Name": "Damaged Product",
+      "Organisation_Type__c": "Business",
+      "SLA_Hours__c": 48,
+      "Default_Queue_Name__c": "Support",
+      "Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Service_Category__c",
+        "referenceId": "CAT_REFUND"
+      },
+      "Name": "Refund Request",
+      "Organisation_Type__c": "Business",
+      "SLA_Hours__c": 72,
+      "Default_Queue_Name__c": "Billing",
+      "Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Service_Category__c",
+        "referenceId": "CAT_LOGIN"
+      },
+      "Name": "Account Login Issue",
+      "Organisation_Type__c": "Business",
+      "SLA_Hours__c": 24,
+      "Default_Queue_Name__c": "Support",
+      "Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Service_Category__c",
+        "referenceId": "CAT_PAY"
+      },
+      "Name": "Payment Failed",
+      "Organisation_Type__c": "Business",
+      "SLA_Hours__c": 24,
+      "Default_Queue_Name__c": "Billing",
+      "Active__c": true
+    }
+  ]
+}

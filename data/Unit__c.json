@@ -1,0 +1,152 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_A101"
+      },
+      "Name": "GVR A-101",
+      "Community__c": "@COM_GVR",
+      "Unit_Number__c": "A-101",
+      "Floor__c": 1,
+      "Unit_Type__c": "Flat"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_A102"
+      },
+      "Name": "GVR A-102",
+      "Community__c": "@COM_GVR",
+      "Unit_Number__c": "A-102",
+      "Floor__c": 1,
+      "Unit_Type__c": "Flat"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_A201"
+      },
+      "Name": "GVR A-201",
+      "Community__c": "@COM_GVR",
+      "Unit_Number__c": "A-201",
+      "Floor__c": 2,
+      "Unit_Type__c": "Flat"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_A202"
+      },
+      "Name": "GVR A-202",
+      "Community__c": "@COM_GVR",
+      "Unit_Number__c": "A-202",
+      "Floor__c": 2,
+      "Unit_Type__c": "Flat"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_B101"
+      },
+      "Name": "GVR B-101",
+      "Community__c": "@COM_GVR",
+      "Unit_Number__c": "B-101",
+      "Floor__c": 1,
+      "Unit_Type__c": "Flat"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_B102"
+      },
+      "Name": "GVR B-102",
+      "Community__c": "@COM_GVR",
+      "Unit_Number__c": "B-102",
+      "Floor__c": 1,
+      "Unit_Type__c": "Flat"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_B201"
+      },
+      "Name": "GVR B-201",
+      "Community__c": "@COM_GVR",
+      "Unit_Number__c": "B-201",
+      "Floor__c": 2,
+      "Unit_Type__c": "Flat"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_B301"
+      },
+      "Name": "GVR B-301",
+      "Community__c": "@COM_GVR",
+      "Unit_Number__c": "B-301",
+      "Floor__c": 3,
+      "Unit_Type__c": "Flat"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_C1001"
+      },
+      "Name": "UrbanCart CUST-1001",
+      "Community__c": "@COM_UCT",
+      "Unit_Number__c": "CUST-1001",
+      "Unit_Type__c": "Customer Account"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_C1002"
+      },
+      "Name": "UrbanCart CUST-1002",
+      "Community__c": "@COM_UCT",
+      "Unit_Number__c": "CUST-1002",
+      "Unit_Type__c": "Customer Account"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_C1003"
+      },
+      "Name": "UrbanCart CUST-1003",
+      "Community__c": "@COM_UCT",
+      "Unit_Number__c": "CUST-1003",
+      "Unit_Type__c": "Customer Account"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_C1004"
+      },
+      "Name": "UrbanCart CUST-1004",
+      "Community__c": "@COM_UCT",
+      "Unit_Number__c": "CUST-1004",
+      "Unit_Type__c": "Customer Account"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_C1005"
+      },
+      "Name": "UrbanCart CUST-1005",
+      "Community__c": "@COM_UCT",
+      "Unit_Number__c": "CUST-1005",
+      "Unit_Type__c": "Customer Account"
+    },
+    {
+      "attributes": {
+        "type": "Unit__c",
+        "referenceId": "U_C1006"
+      },
+      "Name": "UrbanCart CUST-1006",
+      "Community__c": "@COM_UCT",
+      "Unit_Number__c": "CUST-1006",
+      "Unit_Type__c": "Customer Account"
+    }
+  ]
+}

@@ -17,7 +17,7 @@
     </actionCalls>
     <apiVersion>67.0</apiVersion>
     <description
-  >After a Case is created for a known requester (contact or web email), sends the acknowledgement email alert with the case number and SLA Due. Runs on the asynchronous path so an email problem can never roll back the case itself.</description>
+  >After an open Case is created for a known requester (contact or web email), sends the acknowledgement email alert with the case number and SLA Due. Runs on the asynchronous path so an email problem can never roll back the case itself.</description>
     <environments>Default</environments>
     <interviewLabel
   >Case - After Create {!$Flow.CurrentDateTime}</interviewLabel>
@@ -44,7 +44,14 @@
     <start>
         <locationX>0</locationX>
         <locationY>0</locationY>
-        <filterLogic>or</filterLogic>
+        <filterLogic>1 AND (2 OR 3)</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Closed</stringValue>
+            </value>
+        </filters>
         <filters>
             <field>ContactId</field>
             <operator>IsNull</operator>

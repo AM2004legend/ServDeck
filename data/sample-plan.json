@@ -1,0 +1,50 @@
+[
+  {
+    "sobject": "Account",
+    "saveRefs": true,
+    "resolveRefs": false,
+    "files": ["Account.json"]
+  },
+  {
+    "sobject": "Contact",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["Contact.json"]
+  },
+  {
+    "sobject": "Community__c",
+    "saveRefs": true,
+    "resolveRefs": false,
+    "files": ["Community__c.json"]
+  },
+  {
+    "sobject": "Unit__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["Unit__c.json"]
+  },
+  {
+    "sobject": "Occupancy__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["Occupancy__c.json"]
+  },
+  {
+    "sobject": "Service_Category__c",
+    "saveRefs": true,
+    "resolveRefs": false,
+    "files": ["Service_Category__c.json"]
+  },
+  {
+    "sobject": "Case",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["Case.json"]
+  },
+  {
+    "sobject": "Feedback__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["Feedback__c.json"]
+  }
+]

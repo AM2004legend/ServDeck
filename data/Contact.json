@@ -1,0 +1,180 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_ANANYA"
+      },
+      "FirstName": "Ananya",
+      "LastName": "Sen",
+      "AccountId": "@A_SEN",
+      "Email": "ananya.sen@example.com",
+      "Phone": "+91 90000 0000"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_RAHUL"
+      },
+      "FirstName": "Rahul",
+      "LastName": "Sen",
+      "AccountId": "@A_SEN",
+      "Email": "rahul.sen@example.com",
+      "Phone": "+91 90000 0001"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_KAVITA"
+      },
+      "FirstName": "Kavita",
+      "LastName": "Iyer",
+      "AccountId": "@A_IYER",
+      "Email": "kavita.iyer@example.com",
+      "Phone": "+91 90000 0002"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_VIKRAM"
+      },
+      "FirstName": "Vikram",
+      "LastName": "Joshi",
+      "AccountId": "@A_JOSHI",
+      "Email": "vikram.joshi@example.com",
+      "Phone": "+91 90000 0003"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_MEERA"
+      },
+      "FirstName": "Meera",
+      "LastName": "Das",
+      "AccountId": "@A_DAS",
+      "Email": "meera.das@example.com",
+      "Phone": "+91 90000 0004"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_SANJAY"
+      },
+      "FirstName": "Sanjay",
+      "LastName": "Ghosh",
+      "AccountId": "@A_GHOSH",
+      "Email": "sanjay.ghosh@example.com",
+      "Phone": "+91 90000 0005"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_FARAH"
+      },
+      "FirstName": "Farah",
+      "LastName": "Khan",
+      "AccountId": "@A_KHAN",
+      "Email": "farah.khan@example.com",
+      "Phone": "+91 90000 0006"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_ARNAV"
+      },
+      "FirstName": "Arnav",
+      "LastName": "Bose",
+      "AccountId": "@A_BOSE",
+      "Email": "arnav.bose@example.com",
+      "Phone": "+91 90000 0007"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_LATA"
+      },
+      "FirstName": "Lata",
+      "LastName": "Pillai",
+      "AccountId": "@A_PILLAI",
+      "Email": "lata.pillai@example.com",
+      "Phone": "+91 90000 0008"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_DEV"
+      },
+      "FirstName": "Dev",
+      "LastName": "Malhotra",
+      "AccountId": "@A_MALHOTRA",
+      "Email": "dev.malhotra@example.com",
+      "Phone": "+91 90000 0009"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_ROHAN"
+      },
+      "FirstName": "Rohan",
+      "LastName": "Verma",
+      "AccountId": "@A_VERMA",
+      "Email": "rohan.verma@example.com",
+      "Phone": "+91 90000 0010"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_SNEHA"
+      },
+      "FirstName": "Sneha",
+      "LastName": "Reddy",
+      "AccountId": "@A_REDDY",
+      "Email": "sneha.reddy@example.com",
+      "Phone": "+91 90000 0011"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_IMRAN"
+      },
+      "FirstName": "Imran",
+      "LastName": "Shaikh",
+      "AccountId": "@A_SHAIKH",
+      "Email": "imran.shaikh@example.com",
+      "Phone": "+91 90000 0012"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_POOJA"
+      },
+      "FirstName": "Pooja",
+      "LastName": "Nair",
+      "AccountId": "@A_NAIR",
+      "Email": "pooja.nair@example.com",
+      "Phone": "+91 90000 0013"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_KARAN"
+      },
+      "FirstName": "Karan",
+      "LastName": "Gill",
+      "AccountId": "@A_GILL",
+      "Email": "karan.gill@example.com",
+      "Phone": "+91 90000 0014"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "C_DIVYA"
+      },
+      "FirstName": "Divya",
+      "LastName": "Menon",
+      "AccountId": "@A_MENON",
+      "Email": "divya.menon@example.com",
+      "Phone": "+91 90000 0015"
+    }
+  ]
+}
