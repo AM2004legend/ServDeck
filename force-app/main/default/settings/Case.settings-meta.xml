@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultCaseOwner>Support</defaultCaseOwner>
+    <defaultCaseOwnerType>Queue</defaultCaseOwnerType>
+    <webToCase>
+        <caseOrigin>Web</caseOrigin>
+        <enableWebToCase>true</enableWebToCase>
+    </webToCase>
+</CaseSettings>

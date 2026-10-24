@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Feedback__c</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description
+  >Feedback ratings with fields from the rated case (community, category). Used for CSAT reports.</description>
+    <label>Feedback with Case</label>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Rating__c</field>
+            <table>Feedback__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Comment__c</field>
+            <table>Feedback__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Feedback__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>Feedback__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Case__c.CaseNumber</field>
+            <table>Feedback__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Case__c.Subject</field>
+            <table>Feedback__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Case__c.Community__c</field>
+            <table>Feedback__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Case__c.Service_Category__c</field>
+            <table>Feedback__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Case__c.Resolution_Hours__c</field>
+            <table>Feedback__c</table>
+        </columns>
+        <masterLabel>Feedback</masterLabel>
+    </sections>
+</ReportType>

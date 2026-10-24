@@ -32,7 +32,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Occupancy__c.Is_Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -77,7 +77,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.SLA_Breached__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -94,6 +94,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Unit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Web_Category__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Web_Unit_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description
+  >Assign to the Automated Case User (Support Settings). Web-to-Case drops fields that user cannot edit; these are the text fields the web form sends and the Case - Before Save flow turns into lookups.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Community_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Web_Category__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Web_Unit_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>ServDeck Web Intake</label>
+</PermissionSet>

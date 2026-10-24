@@ -8,9 +8,10 @@
  *  - Created from Web or Email: linked to the open case as a child (ParentId). Web-to-Case and
  *    Email-to-Case requesters never see an error, so blocking would silently lose their request.
  *
- * Runs WITHOUT sharing on purpose: duplicates must be found even when the person creating the case
- * cannot see the existing one (an agent in another queue, or the automated user behind Web-to-Case).
- * The class only reads Id and CaseNumber of matching cases and never returns records to the caller.
+ * Runs WITHOUT sharing and the query WITH SYSTEM_MODE on purpose: duplicates must be found even when
+ * the person creating the case cannot see the existing one or the ServDeck fields (an agent in another
+ * queue, or the Automated Case User behind Web-to-Case, which has no access to Unit__c). The class only
+ * reads Id and CaseNumber of matching cases and never returns records to the caller.
  *
  * Bulk-safe: one SOQL query for the whole batch, no DML (before-insert changes are saved by the platform).
  */
@@ -63,6 +64,7 @@ public without sharing class CaseTriggerHandler {
         AND Unit__c IN :unitIds
         AND Service_Category__c IN :categoryIds
         AND CreatedDate >= :windowStart
+      WITH SYSTEM_MODE
       ORDER BY CreatedDate ASC
     ]) {
       String key = keyOf(existing);

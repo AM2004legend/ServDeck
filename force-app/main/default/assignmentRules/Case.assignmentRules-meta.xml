@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!--
+        Web-to-Case (and Email-to-Case) always run the active assignment rule after flows, and with no
+        rule they reset the owner to the Default Case Owner. This rule keeps their cases routed: the
+        "Case - Before Save" flow has already resolved the Service Category, and each entry sends the
+        case to the queue named on that category. No match: Default Case Owner (Support queue).
+        Cases created inside Salesforce are routed by the flow itself.
+    -->
+    <assignmentRule>
+        <fullName>ServDeck_Category_Routing</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>Maintenance</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula
+      >Service_Category__r.Default_Queue_Name__c = &quot;Maintenance&quot;</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Security</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula
+      >Service_Category__r.Default_Queue_Name__c = &quot;Security&quot;</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Billing</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula
+      >Service_Category__r.Default_Queue_Name__c = &quot;Billing&quot;</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula
+      >Service_Category__r.Default_Queue_Name__c = &quot;Support&quot;</formula>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

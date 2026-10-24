@@ -284,4 +284,77 @@ private class CaseTriggerHandlerTest {
       'Web duplicates should be linked'
     );
   }
+
+  @IsTest
+  static void webIntakeUserWithoutLookupAccessGetsDuplicateLinked() {
+    // Like the Automated Case User behind Web-to-Case: it can only write the web form text fields.
+    // The flow fills Unit/Category in system context, then the guard must still be able to query them.
+    Fixture f = new Fixture();
+    TestDataFactory.createCommunity('Web Society', 'WEB', 'Housing Society');
+    Id webCommunityId = [
+      SELECT Id
+      FROM Community__c
+      WHERE Community_Code__c = 'WEB'
+    ]
+    .Id;
+    insert new Unit__c(
+      Name = 'Web Flat',
+      Community__c = webCommunityId,
+      Unit_Number__c = 'W-1',
+      Unit_Type__c = 'Flat'
+    );
+    User intake = TestDataFactory.createUser(
+      'webintk',
+      'ServDeck_Web_Intake',
+      null
+    );
+
+    Case first = webCase();
+    Case second = webCase();
+    Test.startTest();
+    System.runAs(intake) {
+      // Web-to-Case inserts the record itself (system mode); triggers and flows still run as this user.
+      Database.insert(first, AccessLevel.SYSTEM_MODE);
+      Database.insert(second, AccessLevel.SYSTEM_MODE);
+    }
+    Test.stopTest();
+
+    Case savedFirst = [
+      SELECT Unit__r.Name, Service_Category__r.Name, OwnerId
+      FROM Case
+      WHERE Id = :first.Id
+    ];
+    Assert.areEqual(
+      'Web Flat',
+      savedFirst.Unit__r.Name,
+      'Flow should resolve the unit from the web form text'
+    );
+    Assert.areEqual(
+      'Plumbing',
+      savedFirst.Service_Category__r.Name,
+      'Flow should resolve the category'
+    );
+    Assert.areEqual(
+      TestDataFactory.queueId('Maintenance'),
+      savedFirst.OwnerId,
+      'Web case should be routed'
+    );
+    Assert.areEqual(
+      first.Id,
+      [SELECT ParentId FROM Case WHERE Id = :second.Id].ParentId,
+      'Web duplicate should be linked'
+    );
+  }
+
+  private static Case webCase() {
+    return new Case(
+      Subject = 'Tap dripping',
+      Origin = 'Web',
+      Status = 'New',
+      SuppliedEmail = 'someone@example.com',
+      Community_Code__c = 'WEB',
+      Web_Unit_Number__c = 'W-1',
+      Web_Category__c = 'Plumbing'
+    );
+  }
 }

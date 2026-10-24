@@ -50,3 +50,6 @@ $RECYCLE.BIN/
 # Personal learning and interview prep (not part of the project)
 KICKOFF_PROMPT.md
 prep/
+
+# Generated Web-to-Case forms (contain org-specific IDs)
+/web-to-case/
