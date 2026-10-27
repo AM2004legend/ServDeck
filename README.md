@@ -213,5 +213,25 @@ scripts/web-to-case/  web form generator
 
 ## Screenshots
 
-_TODO: app home with Cases list, Unit 360 on a flat, escalated case with the bell notification,
-web form, dashboard._
+**Closed cases, each owned by the queue its category routed it to**
+![Closed cases list](docs/screenshots/cases-list.png)
+
+**A case: routed to Maintenance, linked to the requester and their household**
+![Case record](docs/screenshots/case-record.png)
+
+**Service categories: each sets the queue and SLA hours**
+![Service categories](docs/screenshots/service-categories.png)
+
+**Feedback recorded after a case closes**
+![Feedback record](docs/screenshots/feedback-record.png)
+
+**Communities: a housing society and a retail business in one org**
+![Communities](docs/screenshots/communities.png)
+
+**Occupancies: who lives in which flat**
+![Occupancies](docs/screenshots/occupancies.png)
+
+**Residents and customers, grouped into households and companies**
+![Contacts](docs/screenshots/contacts.png)
+
+_TODO: Unit 360 on a flat, escalated case with the bell notification, web form, dashboard._
